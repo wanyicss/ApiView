@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: "Microsoft YaHei";
+  overflow: hidden;
+}
+
+.navbar {
+    background: #535050;
+    height: 50px;
+    line-height: 50px;
+    color: white;
+    font-size: 20px;
+    padding-left: 50px;
+    cursor: pointer;
+}
+
+.createBtn{
+    width: 240px;
+    height: 50px;
+    border-right: 1px solid #e9e9e9;
+    border-bottom: 1px solid #e9e9e9;
+    cursor: pointer;
+    line-height: 50px;
+        padding-left: 46px
+}
+.proList{
+  position: absolute;
+  top: 50px;
+  bottom: 0px;
+}
+.proList ul{
+  height: 100%;
+}
+.container{
+      position: absolute;
+    left: 240px;
+    top: 50px;
+    bottom: 0;
+    right: 0;
+}

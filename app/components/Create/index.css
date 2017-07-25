@@ -1,0 +1,16 @@
+.create {
+    margin: 60px;
+    text-align: center;
+}
+
+.create button {
+    margin-left: 20px;
+}
+
+.create .proName {
+    width: 200px;
+    height: 30px;
+    border-radius: 3px;
+    border-style: none;
+    border: 1px solid silver;
+}

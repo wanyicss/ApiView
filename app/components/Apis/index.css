@@ -1,0 +1,22 @@
+.editModal {
+    position: absolute;
+    left: -240px;
+    top: 0;
+    background: rgba(0, 0, 0, 0.5);
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.right {
+    margin: 20px;
+}
+
+.createApi {
+    margin-bottom: 20px
+}
+
+.delPro {
+    margin-bottom: 20px;
+    margin-right: 20px
+}

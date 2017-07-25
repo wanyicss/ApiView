@@ -1,0 +1,63 @@
+@keyframes mymove {
+    from {
+        margin-top: 0px;
+    }
+    to {
+        margin-top: 100px;
+    }
+}
+
+.createCon {
+    width: 600px;
+    background: white;
+    animation: mymove 0.5s;
+    margin: auto;
+    margin-top: 100px;
+    height: 400px;
+    padding: 15px;
+    position: relative;
+    border-radius: 3px;
+}
+
+.sure {
+    position: absolute;
+    bottom: 20px;
+    right: 100px;
+}
+
+.cancel {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+.apiName,
+.apiInfo {
+    margin: 0 10px;
+    line-height: 24px;
+    width: 250px;
+    border: 1px solid silver;
+    border-radius: 3px;
+}
+
+.item {
+    margin-bottom: 10px;
+}
+
+.createCon textarea {
+    padding: 8px;
+    border-color: #dddada;
+    width: calc((100% - 70px) / 2);
+    margin-left: 10px;
+    border-radius: 3px;
+    height: 230px;
+    resize: none;
+    float: left;
+}
+
+#test {
+    display: inline-block;
+    height: 230px;
+    margin-left: 5px;
+    width: calc((100% - 70px) / 2);
+}
